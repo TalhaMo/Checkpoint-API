@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.List {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    min-height: 600px;
+    background:#6983aa;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 35px;
+}
+span{
+    font-weight: bold;
+    color:black;
+    padding-right: 15px;
+}
+li{
+    display: flex;
+    padding:7px;
+}
+ul{
+    display: inline;
+    padding: 6px;
+}
